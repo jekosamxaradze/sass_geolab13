@@ -1,0 +1,9 @@
+@import 'fontcolor';
+ %mynav {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    margin-top: 20px;
+    gap: 50px;
+    cursor: pointer;
+}

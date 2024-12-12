@@ -1,0 +1,15 @@
+@import 'reset';
+@import 'nav';
+@import 'fontcolor';
+
+header {
+    nav {
+        @extend:  %mynav;
+
+        p{
+            font-size: $md-font-size;
+        
+        }
+        
+    }
+} 
